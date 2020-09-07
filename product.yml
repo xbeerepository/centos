@@ -7,26 +7,27 @@ system:
 
 providers:
   aws:
-    us-east-1: ami-01ca03df4a6012157
-    us-east-2: ami-000e7ce4dd68e7a11
-    us-west-1: ami-04179d30492b778ad
-    us-west-2: ami-0157b1e4eefd91fd7
-    af-south-1: ami-059c85867d88036bf
-    ap-east-1: ami-0a5c028e5b48c5b03
-    ap-south-1: ami-056940cb2a7bb6d71
-    ap-northeast-1: ami-089a156ea4f52a0a3
-    ap-northeast-2: ami-09cdc4034bbb65412
-    ap-southeast-1: ami-0bfb8f6cdedb56577
-    ap-southeast-2: ami-08a0839a09bbc6f20
-    ca-central-1: ami-07a182edcd7d04084
-    eu-central-1: ami-032025b3afcbb6b34
-    eu-west-1: ami-0bfa4fefe067b7946
-    eu-west-2: ami-0eee2548cd75b4877
-    eu-west-3: ami-05786aa5add3ca7c8
-    eu-south-1: ami-00fd0c9036a37a48e
-    eu-north-1: ami-0474ce84d449ee66f
-    me-south-1: ami-06b01ecfde1a04811
-    sa-east-1: ami-005c6439e527f2704
+    us-east-2: ami-0a75b786d9a7f8144
+    us-east-1: ami-06cf02a98a61f9f5e
+    us-west-1: ami-02676464a065c9c05
+    us-west-2: ami-0a248ce88bcc7bd23
+    af-south-1: ami-03bfd033c9d776adc
+    ap-east-1: ami-09a8f7cf3b1b73e57
+    ap-south-1: ami-0dd861ee19fd50a16
+    ap-northeast-1: ami-0d09d267328197c99
+    ap-northeast-2: ami-0cf8e67d10c823f2e
+    ap-southeast-1: ami-056251cdd6fd1c8eb
+    ap-southeast-2: ami-05f50d9ec7e4c3b02
+    ca-central-1: ami-0252eebc56636a56b
+    eu-central-1: ami-095e1a4d3d632d215
+    eu-west-1: ami-0d4002a13019b7703
+    eu-west-2: ami-0aa3620fadad9198e
+    eu-west-3: ami-04552009264cbe9f4
+    eu-south-1: ami-0a84267606bcea16b
+    eu-north-1: ami-026f0eb2e8006617d
+    me-south-1: ami-0c49e56e4c204cc4c
+    sa-east-1: ami-0c52a0227804a4318
+
 
     
 var:
