@@ -30,7 +30,8 @@ provider:
     me-south-1: ami-0c49e56e4c204cc4c
     sa-east-1: ami-0c52a0227804a4318
 
-
+const:
+  build: "2003"
     
 var:
   timezone: Europe/Paris
