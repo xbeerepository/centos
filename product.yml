@@ -3,7 +3,7 @@ name: centos
 
 system:
   user: centos
-  container: centos:{% piper.version %}.{% build %}
+  container: centos:{% piper.majorVersion %}
 
 provider:
   virtualbox:
