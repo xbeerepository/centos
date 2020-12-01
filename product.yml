@@ -8,26 +8,27 @@ provider:
   virtualbox:
     ova: https://s3.eu-west-3.amazonaws.com/xbee.repository/{% piper.name %}/{% piper.name %}-{% piper.version %}-x86_64.ova
   aws:
-    us-east-2: ami-0a75b786d9a7f8144
-    us-east-1: ami-06cf02a98a61f9f5e
-    us-west-1: ami-02676464a065c9c05
-    us-west-2: ami-0a248ce88bcc7bd23
-    af-south-1: ami-03bfd033c9d776adc
-    ap-east-1: ami-09a8f7cf3b1b73e57
-    ap-south-1: ami-0dd861ee19fd50a16
-    ap-northeast-1: ami-0d09d267328197c99
-    ap-northeast-2: ami-0cf8e67d10c823f2e
-    ap-southeast-1: ami-056251cdd6fd1c8eb
-    ap-southeast-2: ami-05f50d9ec7e4c3b02
-    ca-central-1: ami-0252eebc56636a56b
-    eu-central-1: ami-095e1a4d3d632d215
-    eu-west-1: ami-0d4002a13019b7703
-    eu-west-2: ami-0aa3620fadad9198e
-    eu-west-3: ami-04552009264cbe9f4
-    eu-south-1: ami-0a84267606bcea16b
-    eu-north-1: ami-026f0eb2e8006617d
-    me-south-1: ami-0c49e56e4c204cc4c
-    sa-east-1: ami-0c52a0227804a4318
+    amis:
+      us-east-2: ami-0a75b786d9a7f8144
+      us-east-1: ami-06cf02a98a61f9f5e
+      us-west-1: ami-02676464a065c9c05
+      us-west-2: ami-0a248ce88bcc7bd23
+      af-south-1: ami-03bfd033c9d776adc
+      ap-east-1: ami-09a8f7cf3b1b73e57
+      ap-south-1: ami-0dd861ee19fd50a16
+      ap-northeast-1: ami-0d09d267328197c99
+      ap-northeast-2: ami-0cf8e67d10c823f2e
+      ap-southeast-1: ami-056251cdd6fd1c8eb
+      ap-southeast-2: ami-05f50d9ec7e4c3b02
+      ca-central-1: ami-0252eebc56636a56b
+      eu-central-1: ami-095e1a4d3d632d215
+      eu-west-1: ami-0d4002a13019b7703
+      eu-west-2: ami-0aa3620fadad9198e
+      eu-west-3: ami-04552009264cbe9f4
+      eu-south-1: ami-0a84267606bcea16b
+      eu-north-1: ami-026f0eb2e8006617d
+      me-south-1: ami-0c49e56e4c204cc4c
+      sa-east-1: ami-0c52a0227804a4318
 
 const:
   build: "2003"
