@@ -1,5 +1,5 @@
 schema-version: 1.0
-
+type: system
 system:
   user: centos
   container: centos:{% piper.version %}.{% build %}
