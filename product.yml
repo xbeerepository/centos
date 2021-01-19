@@ -2,11 +2,11 @@ schema-version: 1.0
 type: system
 system:
   user: centos
-  container: centos:{% piper.version %}.{% build %}
+  container: centos:{% xbee.version %}.{% build %}
 
 provider:
   virtualbox:
-    ova: https://s3.eu-west-3.amazonaws.com/xbee.repository/{% piper.name %}/{% piper.name %}-{% piper.version %}-x86_64.ova
+    ova: https://s3.eu-west-3.amazonaws.com/xbee.repository/{% xbee.name %}/{% xbee.name %}-{% xbee.version %}-x86_64.ova
   aws:
     amis:
       us-east-2: ami-0a75b786d9a7f8144
@@ -44,3 +44,5 @@ provision:
 
 up:
   - shell: hostnamectl set-hostname {{ .host.name }}
+
+
