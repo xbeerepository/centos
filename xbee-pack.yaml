@@ -2,11 +2,11 @@ schema-version: 1.0
 type: system
 system:
   user: centos
-  container: centos:{% xbee.version %}.{% build %}
+  container: centos:{% xbeeVersion %}.{% build %}
 
 provider:
   virtualbox:
-    ova: https://s3.eu-west-3.amazonaws.com/xbee.repository.public/{% xbee.name %}/{% xbee.name %}-{% xbee.version %}-x86_64.ova
+    ova: https://s3.eu-west-3.amazonaws.com/xbee.repository.public/{% xbeeName %}/{% xbeeName %}-{% xbeeVersion %}-x86_64.ova
   aws:
     amis:
       us-east-2: ami-0a75b786d9a7f8144
