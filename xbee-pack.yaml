@@ -6,33 +6,29 @@ system:
 
 provider:
   virtualbox:
-    disk: https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-Vagrant-8.3.2011-20201204.2.x86_64.vagrant-virtualbox.box
+    disk: https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-Vagrant-8.4.2105-20210603.0.x86_64.vagrant-virtualbox.box
   aws:
     amis:
-      af-south-1: ami-0bf6cf59605331551
-      eu-north-1: ami-0e201bc52c64d7b5a
-      ap-south-1: ami-0e99c55244ca9e406
-      eu-west-3: ami-062fbc1f6aaecbede
-      eu-west-2: ami-00c89583fee7b879d
-      eu-south-1: ami-0bef61145b417dff4
-      eu-west-1: ami-0a75a5a43b05b4d5f
-      ap-northeast-2: ami-06c6d129b47acaba9
-      me-south-1: ami-0b1c03e7905253652
-      ap-northeast-1: ami-0d9bf167cb68ac889
-      sa-east-1: ami-05a85bb881b9f8422
-      ca-central-1: ami-0557e54bb3a24f10e
-      ap-east-1: ami-0ad3314ea64676ee5
-      ap-southeast-1: ami-05930ce55ebfd2930
-      ap-southeast-2: ami-0e8d52e2390c082c3
-      eu-central-1: ami-0e337c7f9752d9d34
-      us-east-1: ami-056b03dba13a2c9dd
-      us-east-2: ami-0ac6967966621d983
-      us-west-1: ami-04adf3fcbc8a45c54
-      us-west-2: ami-0155c31ea13d4abd2
+      af-south-1: ami-0ad60e32dbfe87c3f
+      eu-north-1: ami-096f5cb108907a872
+      ap-south-1: ami-0c8ad4b0ff2d20c79
+      eu-west-3: ami-0057f9b19b88b562c
+      eu-west-2: ami-05cc99c0a1894da6e
+      eu-south-1: ami-0956570d03fba53eb
+      eu-west-1: ami-05beabd0fc875ce04
+      ap-northeast-2: ami-09ac2b4b2f625d4a8
+      me-south-1: ami-01239eccbfa118787
+      ap-northeast-1: ami-063c5a5e375b71d95
+      sa-east-1: ami-0b5bdb52146eac553
+      ca-central-1: ami-069814abd8d057d8a
+      ap-east-1: ami-0b197b1f02309cb3c
+      ap-southeast-1: ami-00bd7cc070262f111
+      ap-southeast-2: ami-08bc1dda17f2f8309
+      eu-central-1: ami-0a2dc38dc30ba417e
+      us-east-1: ami-05d7cb15bfbf13b6d
+      us-east-2: ami-057cacbfbbb471bb3
+      us-west-1: ami-01c1168b9f7398306
 
-
-
-    
 var:
   timezone: Europe/Paris
  
