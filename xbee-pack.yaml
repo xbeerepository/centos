@@ -5,7 +5,7 @@ system:
   container: centos:{% xbeeVersion %}
 provider:
   virtualbox:
-    disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-7.9.2009-cloudimg-amd64.vmdk
+    disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-7.9-x86_64.vmdk
   aws:
     amis:
       af-south-1: ami-0b761332115c38669
