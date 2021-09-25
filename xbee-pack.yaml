@@ -6,7 +6,7 @@ system:
 
 provider:
   virtualbox:
-       disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/CentOS-7-x86_64-GenericCloud-2003.vmdk
+       disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-8.4-x86_64.vmdk
   aws:
     amis:
       af-south-1: ami-0ad60e32dbfe87c3f
