@@ -5,8 +5,7 @@ system:
   container: centos:{% xbeeVersion %}
 provider:
   virtualbox:
-    disk: 
-      linux_amd64: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-7.9-x86_64.vmdk
+    disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-7.9-x86_64.vmdk
   aws:
     amis:
       linux_amd64:
