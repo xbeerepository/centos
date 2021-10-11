@@ -6,28 +6,51 @@ system:
 
 provider:
   virtualbox:
-       disk: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-8.4-x86_64.vmdk
+    disk:
+      linux_amd64: https://s3.eu-west-3.amazonaws.com/xbee.repository/centos/centos-8.4-x86_64.vmdk
   aws:
     amis:
-      af-south-1: ami-0ad60e32dbfe87c3f
-      eu-north-1: ami-096f5cb108907a872
-      ap-south-1: ami-0c8ad4b0ff2d20c79
-      eu-west-3: ami-0057f9b19b88b562c
-      eu-west-2: ami-05cc99c0a1894da6e
-      eu-south-1: ami-0956570d03fba53eb
-      eu-west-1: ami-05beabd0fc875ce04
-      ap-northeast-2: ami-09ac2b4b2f625d4a8
-      me-south-1: ami-01239eccbfa118787
-      ap-northeast-1: ami-063c5a5e375b71d95
-      sa-east-1: ami-0b5bdb52146eac553
-      ca-central-1: ami-069814abd8d057d8a
-      ap-east-1: ami-0b197b1f02309cb3c
-      ap-southeast-1: ami-00bd7cc070262f111
-      ap-southeast-2: ami-08bc1dda17f2f8309
-      eu-central-1: ami-0a2dc38dc30ba417e
-      us-east-1: ami-05d7cb15bfbf13b6d
-      us-east-2: ami-057cacbfbbb471bb3
-      us-west-1: ami-01c1168b9f7398306
+      linux_amd64:
+        af-south-1: ami-0ad60e32dbfe87c3f
+        eu-north-1: ami-096f5cb108907a872
+        ap-south-1: ami-0c8ad4b0ff2d20c79
+        eu-west-3: ami-0057f9b19b88b562c
+        eu-west-2: ami-05cc99c0a1894da6e
+        eu-south-1: ami-0956570d03fba53eb
+        eu-west-1: ami-05beabd0fc875ce04
+        ap-northeast-2: ami-09ac2b4b2f625d4a8
+        me-south-1: ami-01239eccbfa118787
+        ap-northeast-1: ami-063c5a5e375b71d95
+        sa-east-1: ami-0b5bdb52146eac553
+        ca-central-1: ami-069814abd8d057d8a
+        ap-east-1: ami-0b197b1f02309cb3c
+        ap-southeast-1: ami-00bd7cc070262f111
+        ap-southeast-2: ami-08bc1dda17f2f8309
+        eu-central-1: ami-0a2dc38dc30ba417e
+        us-east-1: ami-05d7cb15bfbf13b6d
+        us-east-2: ami-057cacbfbbb471bb3
+        us-west-1: ami-01c1168b9f7398306
+      linux_arm64:
+        eu-south-1: ami-033f6350b833ba4db
+        eu-west-3: ami-04aca3a1adbc98939
+        eu-north-1: ami-0626cec7b0d04c122
+        eu-west-2: ami-03daf7738f91ff4a6
+        me-south-1: ami-02484ac99f1e5cdb1
+        eu-central-1: ami-0a501a8db43feea4f
+        af-south-1: ami-0fa0f061119bf0903
+        ap-east-1: ami-04c4712da331eff15
+        ca-central-1: ami-021239ba439d99612
+        us-east-2: ami-0a4c0912a6594a308
+        eu-west-1: ami-0dd7a22a52df2686a
+        ap-south-1: ami-0b6ef76e5e923848c
+        us-west-1: ami-0bce4989903474406
+        ap-southeast-1: ami-0469444308afc0d4c
+        us-east-1: ami-061a486e54da518df
+        sa-east-1: ami-0a4e8b14a09fd9a32
+        us-west-2: ami-07116358cd31afb48
+        ap-northeast-2: ami-0d0915377dd915299
+        ap-northeast-1: ami-075e5192c66b801f1
+
 
 var:
   timezone: Europe/Paris
