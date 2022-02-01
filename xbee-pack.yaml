@@ -51,7 +51,7 @@ provider:
         ap-southeast-2: ami-014dafc35e50da2f5
 
     
-var:
+in:
   timezone: Europe/Paris
  
 provision:
