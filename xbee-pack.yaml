@@ -51,7 +51,7 @@ provider:
         ap-northeast-1: ami-075e5192c66b801f1
 
 
-var:
+in:
   timezone: Europe/Paris
  
 provision:
